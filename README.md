@@ -4,10 +4,10 @@ Working Version of https://www.theconstructsim.com/ros-qa-070-moving-joints-gaze
 ##Installation
 
 
-  cd catkin_ws/src
-  git clone  https://github.com/ProfJust/simple_example_description.git
-  cd catkin_ws
-  catkin_make
+  $ cd catkin_ws/src
+  $ git clone  https://github.com/ProfJust/simple_example_description.git
+  $ cd catkin_ws
+  $ catkin_make
 
 ##Usage
 
