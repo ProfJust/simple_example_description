@@ -2,12 +2,18 @@
 Working Version of https://www.theconstructsim.com/ros-qa-070-moving-joints-gazebo-simple-example
 
 Installation
+
+
   cd catkin_ws/src
   ǵit clone  https://github.com/ProfJust/simple_example_description.git
   cd catkin_ws
   catkin_make
 
+
+
 Usage
+
+
   $1 roslaunch simple_example_description spawn_robot.launch
 
   $2 rosrun rviz rviz -d `rospack find simple_example_description`/rviz/simple_urdf_example.rviz
