@@ -5,7 +5,7 @@ Installation
 
 
   cd catkin_ws/src
-  ǵit clone  https://github.com/ProfJust/simple_example_description.git
+  git clone  https://github.com/ProfJust/simple_example_description.git
   cd catkin_ws
   catkin_make
 
