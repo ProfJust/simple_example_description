@@ -1,7 +1,7 @@
 # simple_example_description
 Working Version of https://www.theconstructsim.com/ros-qa-070-moving-joints-gazebo-simple-example
 
-Installation
+##Installation
 
 
   cd catkin_ws/src
@@ -9,10 +9,7 @@ Installation
   cd catkin_ws
   catkin_make
 
-
-
-Usage
-
+##Usage
 
   $1 roslaunch simple_example_description spawn_robot.launch
 
