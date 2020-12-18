@@ -18,11 +18,11 @@ Working Version of https://www.theconstructsim.com/ros-qa-070-moving-joints-gaze
 
   $2 rosrun rviz rviz -d `rospack find simple_example_description`/rviz/simple_urdf_example.rviz
 
-  # to turn second_link
+  ### to turn second_link
 
   $3 rostopic pub -1 /simple_model/base_to_second_joint_position_controller/command std_msgs/Float64 "data: 3"
 
-  # to stop second_link
+  ### to stop second_link
   
   $3 rostopic pub -1 /simple_model/base_to_second_joint_position_controller/command std_msgs/Float64 "data: 0"
 
