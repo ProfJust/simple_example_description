@@ -15,7 +15,7 @@
       <geometry>
         <cylinder radius="0.05" length="0.24" />
       </geometry>
-        </collision>
+    </collision>
     <visual>
       <geometry>
         <cylinder radius="0.05" length="0.24" />
